@@ -1,0 +1,25 @@
+{
+  "name": "qualificacao-mp10",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "static": "python scripts/build-static.py",
+    "qa": "python scripts/render.py"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "gsap": "^3.12.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.55.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.0"
+  }
+}
